@@ -1,0 +1,277 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+.nav{
+  background-color: crimson;
+  color: white;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+.maneger img{
+  margin: 2px;
+  padding: 2px;
+  border-radius: 300px;
+}
+.logo span{
+  color: rgb(235, 249, 38);
+}
+.logo{
+  padding: 10px 30px;
+  letter-spacing: 2px;
+  font-size: 20;
+  cursor: pointer;
+}
+.navlinks{
+  float: right;
+  padding-right: 30px;
+  cursor: pointer;
+}
+.navlinks ul{
+  margin-top: 20px;
+  list-style-type: none;
+  display: flex;
+  
+  
+}
+.navlinks ul il{
+  margin-top: 5px;
+  display: inline-block;
+  padding-right: 30px;
+  cursor: pointer;
+}
+.navlinks ul li a{
+text-decoration: none;
+padding-right: 20px;
+display: flex;
+color: white;
+font-size: 17;
+cursor: pointer;
+text-transform: uppercase;
+
+
+}
+
+.navborder::after{
+  content: ;
+  width: 0;
+  height: 20px;
+  background-color: white;
+  transition: width 0 .3s ease;
+}
+.navborder:hover::after{
+width: 100%;
+}
+
+.container{
+  background-image: url(.//images/background.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 100%;
+ height: 800px;
+ text-align: center;
+}
+.container h1{
+  padding-top: 80px;
+  font-size: 100;
+  color: crimson;
+
+  }
+.container p{
+color:crimson;
+  }
+
+.order{
+background-color: crimson;
+border-radius: 5px;
+border: none;
+font-size: 15;
+margin-top: 10px;
+transition: .3s ease;
+}
+.order a{
+  color: white;
+  text-decoration: none;
+}
+.order a:hover{
+  padding: 20px 10px;
+}
+
+.icons i{
+  color:chartreuse;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+.container2{
+  margin: 30px 20px;
+  text-align: center;
+}
+.container2 img{
+  position: relative;
+}
+.container2 h1{
+  padding-top: 10px;
+  color: crimson;
+  font-size: 40px;
+
+}
+.container2 h3{
+  color: crimson;
+  font-size: 20px;
+}
+.container3{
+  color: crimson;
+}
+.container3 h1{
+  text-align: center;
+}
+.container4{
+  border: none;
+}
+.combos{
+  display: flex;
+}
+
+  .combo1, .combo2, .combo3{
+    padding: 20px 30px;
+    text-align: center;
+    list-style-type: none;
+  }
+  .buy{
+    padding: 5px;
+    font-size: 20px;
+    background-color: crimson;
+    border-radius: 5px;
+    border: none;
+    
+  }
+  .buy a{
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+    margin-top: 5px;
+  }
+  .buy a:hover{
+    padding: 10px 8px;
+  }
+
+  ul {
+    list-style-type: none;
+    flood-color: crimson;
+  }
+  .container4{
+    margin: 30px 20px;
+    text-align: center;
+  }
+  .combo4, .combo5, .combo6{
+    padding: 20px 30px;
+    text-align: center;
+    list-style-type: none;
+
+    }
+    .combos1{
+      display: flex;
+    }
+  .container4 img{
+    display: flex;
+    text-align: center;
+    position: relative;
+  }
+  .container5{
+    display: flex;
+    margin: 30px 20px;
+    text-align: center;
+  }
+
+  .combo7,.combo8,combo9{
+    padding: 20px 30px;
+    text-align: center;
+    list-style-type: none;
+  }
+  .contact{
+    border: 2px solid crimson;
+    margin: 30px 20px;
+    text-align: center;
+  }
+.contact h1{
+  margin-top: 20px;
+  font-size: 20px;
+  color: crimson;
+ text-align: center;
+
+ }
+ .form{
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+ }
+ input[type=text]{
+  margin: 10px ;
+  width: 400px;
+  padding: 7px 5px;
+  border: 2px solid crimson;
+  border-radius: 3px;
+  
+ }
+ input[type=Email]{
+  margin: 10px ;
+  width: 400px;
+  padding: 7px 5px;
+  border: 2px solid crimson;
+  border-radius: 3px;
+  
+ }
+ input[type=number]{
+  margin: 10px ;
+  width: 400px;
+  padding: 7px 5px;
+  border: 2px solid crimson;
+  border-radius: 3px;
+  
+ }
+ .form textarea{
+  margin: 10px auto 30px auto;
+  width: 400px;
+  height: 250px;
+  padding: 7px 5px;
+  border: 2px solid crimson;
+  border-radius: 3px;
+ }
+ input[type=submit]{
+  background-color: crimson;
+ color:white;
+ border-radius: 20px;
+ border: crimson;
+ }
+.footer{
+  display: flex;
+  padding: 50px;
+  align-items: center;
+  background-color: crimson;
+  justify-content: space-between;
+}
+.footer1 h1, .footer2 h2, .footer3 h2, .credit p{
+  color: white;
+
+}
+.footer2 ul,.footer3 ul{
+  margin-top: 20px;
+  list-style-type: none;
+}
+.footer2 ul li a,.footer3 ul li a{
+  color: white;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+.footer2 ul li a:hover,.footer3 ul li a:hover{
+  color: orange;
+}
+
+
+ 
